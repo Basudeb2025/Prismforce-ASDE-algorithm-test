@@ -28,19 +28,18 @@ Design an algorithm to determine whether Abhimanyu can successfully navigate thr
 - **Skiptime (a)**: 9
 - **Recharges (b)**: 0
 - **Expected Outcome**: Yes, Abhimanyu can cross Chakravyuh
-- **Explanation**: Abhimunya will skip first 9 cicle enemy, and then kill 10 and 11 circle enemy
+  **Explanation**: Abhimunya will skip first 9 cicle enemy, and then kill 10 and 11 circle enemy
 here , abhimanyu can kill the first circle enemy also, first then abhimanyu need to skip 2 to 10 for that case abhimanyu cant reach at
-chakravyuh, because the power = 0, and recharge = 0,
+chakravyuh, because the power = 0, and recharge = 0, and he has to kill 11 circle enemy.
 ### Test Case 2:
 - **Abhimanyu power (p)**: 3
 - **Enemy Powers**: `[2, 1, 2, 1, 1, 1, 2, 12, 13, 12, 4]`
 - **Skiptime (a)**: 3
 - **Recharges (b)**: 2
 - **Expected Outcome**: Not, possible
-- **Explanation**:- Abhimanyu can't reach at chakravyu. Because, he need to skip 8,9,10 circle so no remain skip time.Now, he can kill 1,2,3,4,5,6 circle
+ **Explanation**:- Abhimanyu can't reach at chakravyu. Because, he need to skip 8,9,10 circle so no remain skip time.Now, he can kill 1,2,3,4,5,6 circle
 after that, he has power = 0,rechargetime = 0,skip = 0.So, abhimanyu will lose the battle.
 ## Explanation
 The algorithm should evaluate Abhimanyu's power as he progresses through each circle. It must consider the impact of skips and recharges, and account for the regenerating enemies at `k3` and `k7`. The algorithm's success criterion is whether Abhimanyu can reach the final circle with enough power to defeat or bypass the last enemy.
 
-## Conclusion
-This project demonstrates the application of algorithmic problem-solving to a classical scenario from mythology. By simulating Abhimanyu's journey through the Chakravyuha, the project highlights the importance of strategy, resource management, and decision-making in overcoming complex challenges.
+
