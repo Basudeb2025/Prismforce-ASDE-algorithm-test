@@ -1,4 +1,4 @@
-# Chakravyuha Algorithm Challenge
+# Prismforce ASDE algorithm test
 
 ## Project Description
 This project involves solving a complex problem inspired by the story of Abhimanyu in the Chakravyuha. The goal is to develop an algorithm that determines whether Abhimanyu can successfully cross all 11 circles guarded by enemies and reach the Pandavas' army.
@@ -23,19 +23,18 @@ Design an algorithm to determine whether Abhimanyu can successfully navigate thr
 
 ## Test Cases
 ### Test Case 1:
-- **Initial Power (p)**: 100
-- **Enemy Powers**: `[30, 20, 40, 10, 50, 30, 60, 20, 40, 50, 10]`
-- **Skips (a)**: 2
-- **Recharges (b)**: 1
-- **Expected Outcome**: Can Abhimanyu cross the Chakravyuha?
+- **Abhimanyu power (p)**: 4
+- **Enemy Powers**: `[4 ,5, 6, 7, 8, 9, 10, 11, 12, 3, 1]`
+- **Skiptime (a)**: 9
+- **Recharges (b)**: 0
+- **Expected Outcome**: Yes, Abhimanyu can cross Chakravyuh
 
 ### Test Case 2:
-- **Initial Power (p)**: 150
-- **Enemy Powers**: `[50, 40, 70, 30, 80, 60, 90, 40, 70, 80, 20]`
-- **Skips (a)**: 1
+- **Abhimanyu power (p)**: 3
+- **Enemy Powers**: `[2, 1, 2, 1, 1, 1, 2, 12, 13, 12, 4]`
+- **Skiptime (a)**: 3
 - **Recharges (b)**: 2
-- **Expected Outcome**: Can Abhimanyu cross the Chakravyuha?
-
+- **Expected Outcome**: Not, possible
 ## Explanation
 The algorithm should evaluate Abhimanyu's power as he progresses through each circle. It must consider the impact of skips and recharges, and account for the regenerating enemies at `k3` and `k7`. The algorithm's success criterion is whether Abhimanyu can reach the final circle with enough power to defeat or bypass the last enemy.
 
