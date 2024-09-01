@@ -39,7 +39,7 @@ chakravyuh, because the power = 0, and recharge = 0, and he has to kill 11 circl
 - **Recharges (b)**: 2
 - **Expected Outcome**: Not, possible
   
--**Explanation**:- Abhimanyu can't reach at chakravyu. Because, he need to skip 8,9,10 circle so no remain skip time.Now, he can kill 1,2,3,4,5,6 circle
+- **Explanation**:- Abhimanyu can't reach at chakravyu. Because, he need to skip 8,9,10 circle so no remain skip time.Now, he can kill 1,2,3,4,5,6 circle
 after that, he has power = 0,rechargetime = 0,skip = 0.So, abhimanyu will lose the battle.
 ## Explanation
 The algorithm should evaluate Abhimanyu's power as he progresses through each circle. It must consider the impact of skips and recharges, and account for the regenerating enemies at `k3` and `k7`. The algorithm's success criterion is whether Abhimanyu can reach the final circle with enough power to defeat or bypass the last enemy.
